@@ -1,5 +1,14 @@
 <?php
-
+$sys_arr = explode(".",$_SERVER['HTTP_HOST']);
+if(!empty($sys_arr[3]) && ($sys_arr[3] == 'com' || $sys_arr[3] == 'cn'))
+{
+    define('ITEMID',intval($sys_arr[0]));
+}
+else
+{
+    exit('Interval Error!');
+}
+unset($sys_arr);
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';

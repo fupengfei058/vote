@@ -1,0 +1,18 @@
+.wrap{padding:6px;margin:0px;font-size:16px;}
+table{border-collapse: collapse;font-size: 15px;width:90%;margin:auto;margin-top:15px;}
+tr{border-bottom: 1px solid #ff756b}
+th{color:#F55;text-align: center;padding:5px 0;}
+td{vertical-align: middle;text-align: center;padding:5px 0;color:#454545;font-size: 14px}
+/*.img_display.clear{margin:0px;}*/
+.page_active{background-color:rgb(255, 117, 107); color:#fff;}
+#pagebox a{
+    margin:0 2px;
+}
+.f1-1-footer-r {
+    width: 3rem !important;
+}
+
+#put_vote_btn.voted{
+    background:#FADDDB;
+    color:black;
+}

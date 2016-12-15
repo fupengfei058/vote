@@ -80,7 +80,14 @@ return array(
 					'class'=>'CWebLogRoute',
 				),
 				*/
-			),
+                array(
+                    'class'=>'CProfileLogRoute',
+                ),
+                /*array(
+                    'class'=>'CWebLogRoute',
+                    'levels'=>'error,warning,trace',
+                ),*/
+            ),
 		),
 
 	),

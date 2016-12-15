@@ -5,7 +5,7 @@
  */
 class Controller extends CController
 {
-	/**
+    /**
 	 * @var string the default layout for the controller view. Defaults to '//layouts/column1',
 	 * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
 	 */
@@ -23,5 +23,14 @@ class Controller extends CController
 
     public function init() {
         $this->attachBehavior('bootstrap', new BController($this));
+        if(!defined('ITEMID')){
+            exit('Interval Error!');
+        }
+        session_start();
+        $_SESSION['itemId'] = ITEMID;
+        $item = Item::model()->findByPk($_SESSION['itemId']);
+        if(!empty($item) && $item['endTime'] < time()){
+            exit('该活动已结束！');
+        }
     }
 }

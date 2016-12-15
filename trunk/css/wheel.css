@@ -1,0 +1,48 @@
+.bg_mask{
+			background:rgba(0,0,0,0.6);
+			position:fixed;
+			z-index:20;
+			left:0;
+			right:0;
+			top:0;
+			height:100%;
+			width:100%;
+			display:none;
+		}
+		.main1 {
+		    padding: 1rem;
+		    position:relative;
+		    top:50%;
+		    margin-top:-10.5rem;
+		}
+
+		.bigwheel {
+		    position: relative;
+		    width: 20rem;
+		    height: 20rem;
+		    margin: 0 auto;
+		}
+
+		.bigwheel .wheel {
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    top: 0;
+		    background: url('/imgages/zhuanpan.png');
+		    -webkit-background-size: 20rem 20rem;
+		    background-size: 20rem 20rem;
+		}
+
+		.bigwheel .needle {
+		    position: absolute;
+		    top: 2.195rem;
+		    left: 6rem;
+		    right: 6rem;
+		    width: 8rem;
+		    height: 15.61rem;
+		    background: url('/imgages/start.png');
+		    -webkit-background-size: 8rem 15.61rem;
+		    background-size: 8rem 15.61rem;
+		    
+		}
