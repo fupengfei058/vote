@@ -3425,3 +3425,901 @@ in D:\code\vote\trunk\index.php (22)
 2016/12/16 09:47:03 [trace] [system.CModule] Loading "clientScript" application component
 in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
 in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (9)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (32)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:55 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (9)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (32)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:59 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:59 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:59:59 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (9)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (32)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:20:55 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:34 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (9)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\themes\bootstrap\views\reg\reg.php (32)
+in D:\code\vote\trunk\protected\controllers\RegController.php (43)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\controllers\RegController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:21:41 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:34 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:34 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:34 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:22:55 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:23:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:25:48 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "log" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "request" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "urlManager" application component
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "db" application component
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (36)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.ar.CActiveRecord] contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (41)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.ar.CActiveRecord] item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (46)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "themeManager" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\code\vote\trunk\themes\bootstrap\views\layouts\main.php (1)
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 10:27:21 [trace] [system.CModule] Loading "clientScript" application component
+in D:\code\vote\trunk\protected\controllers\SiteController.php (9)
+in D:\code\vote\trunk\index.php (22)

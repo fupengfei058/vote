@@ -38,7 +38,7 @@
     </div>
 </div>
 <script>
-    $(".f1-1-1").each(function () {
+    $(".f1-1-1").each(function(){
         this.style.height=this.offsetHeight+"px";
     });
     var oTip=$(".tips").eq(0);
@@ -46,7 +46,7 @@
     var r_div=$(".ri").get(0);
     //投票按钮
     var oEle=null;
-    $(".main").on('click', '#put_vote_btn', function () {
+    $(".main").on('click', '#put_vote_btn', function(){
         oEle = this;
         $(this).val('投票中').addClass('voted').attr("disabled",true);
         var obj = $(this).closest('.f1-1-footer').find('.f1-1-footer-name-ps');
@@ -59,18 +59,18 @@
             data:{contestantId : $(this).data('id')},
             type:'post',
             dataType:'json',
-            success:function (data) {
-                if (data.code == -1) {
+            success:function(data) {
+                if(data.code == -1){
                     alert(data.message);
                     $(ts).removeAttr("disabled").removeClass('voted').val('投票');
-                } elseif (data.code == 1000) {
+                }else if(data.code == 1000) {
                     alert(data.message);
                     $(ts).removeAttr("disabled").removeClass('voted').val('投票');
                     obj.text(++val);
                     obj2.text(++val2);
                 }
             },
-            error:function (res) {
+            error:function(res) {
                 alert(JSON.stringify(res));
                 $(ts).removeAttr("disabled").removeClass('voted').val('投票');
                 alert("网络异常");
@@ -78,28 +78,27 @@
         });
     });
     //瀑布流
-    public function fill(no,src,name,num,sort)
-    {
+    function fill(no,src,name,num,sort){
         var oDiv=document.createElement("div");
         oDiv.className="f1-1";
         var str='<div class="f1-1-1"><img src="'+src+'"><span class="f1-1-num">'+sort+'号</span><span class="f1-1-num-1"></span></div><div class="f1-1-footer"><div class="f1-1-footer-l"><p class="f1-1-footer-name">'+name+'</p><span class="f1-1-footer-name-ps">'+num+'</span>票</div><div class="f1-1-footer-r"><a><input id="put_vote_btn" data-id="'+no+'" type="button" value="投票"></a></div></div>';
         oDiv.innerHTML=str;
         eleArr.push(oDiv);
-        (function (div,src_) {
+        (function(div,src_){
             var img=new Image();
             img.src=src_;
-            img.onload=function () {
+            img.onload=function(){
                 div.getElementsByTagName("img")[0].src=this.src;
                 index++;
-                if (index==t_num) {
+                if(index==t_num){
                     addEle();
                 }
                 img=null;
             }
-            img.onerror=function () {
+            img.onerror=function(){
                 div.getElementsByTagName("img")[0].src="/images/default.jpg";
                 index++;
-                if (index==t_num) {
+                if(index==t_num){
                     addEle();
                 }
                 this.onerror=null;
@@ -110,26 +109,27 @@
     var t_num=0;
     var index=0;
     var eleArr=[];
-    public function addEle()
-    {
+    function addEle(){
         for(var i=0;i<eleArr.length;i++)
-            if (l_div.offsetHeight<=r_div.offsetHeight) {
+            if(l_div.offsetHeight<=r_div.offsetHeight){
                 l_div.appendChild(eleArr[i]);
-            } else {
+            }
+            else{
                 r_div.appendChild(eleArr[i]);
             }
     }
-    public function loading(arr)
-    {
+
+    function loading(arr){
         oTip.fadeOut('fast');
-        if (arr.length) {
+        if(arr.length){
             t_num=arr.length;
             l_div.innerHTML="";
             r_div.innerHTML="";
             for (var i = 0; i < arr.length; i++) {
                 fill(arr[i].contestantId,arr[i].pic,arr[i].contestantName,arr[i].voteCount,arr[i].sortNum);
             }
-        } else {
+        }
+        else{
             oTip.fadeOut('fast');
             oTip.innerHTML="没有相关数据！";
         }
