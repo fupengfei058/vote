@@ -1,10 +1,12 @@
 <?php
-class Item extends CActiveRecord{
-
-    public static function model($className = __CLASS__){
+class item extends CActiveRecord
+{
+    public static function model($className = __CLASS__)
+    {
         return parent::model($className);
     }
-    public function tableName(){
+    public function tableName()
+    {
         return "vote_item";
     }
 }

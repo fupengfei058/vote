@@ -13,17 +13,16 @@
     <div class="container">
     <header class="header">
         <div class="header_wrapper">
-            <img src="">
         </div>
         <div class="header_num">
             <ul>
                 <li>
                     <p>已报名</p>
-                    <strong><?= $contestantNumbers?></strong>
+                    <strong><?= $this->contestantNumbers?></strong>
                 </li>
                 <li>
                     <p>投票数</p>
-                    <strong id="count_record"><?= $item['totalVote']?></strong>
+                    <strong id="count_record"><?= $this->item['totalVote']?></strong>
                 </li>
             </ul>
         </div>

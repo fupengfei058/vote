@@ -1,5 +1,5 @@
 .wrap{padding:12px 0;margin:0px;font-size:16px;}
-h2.title{text-align: center;color:white;font-size:2em}
+h2.title{text-align: center;color:#f02c71;font-size:2em}
 .info_act{padding:12px;}
 .info_act .clear{margin-top:12px;}
 .info_act .clear input::-webkit-input-placeholder{
@@ -17,7 +17,7 @@ textarea{resize:none;border-radius:12px;padding:0.5em 1em;border:1px solid #bbb;
 .u_img_area{width:70%;float:left;overflow: hidden}
 div.imgwrap{margin-bottom:6px;position:relative;-webkit-box-sizing:border-box}
 div.imgwrap,#upload{float:left;margin-left:8px;text-indent: 0px;margin-right:6px;border:0px;border-radius:6px;color:white;font-size:30px;padding:0px;height:65px;width:65px;border:2px solid #ff756b;}
-#upload{line-height:0.5em;-webkit-box-sizing:content-box!important;background-color:none;background:url(/resource/img/add.png) center center no-repeat;background-size:90%;}
+#upload{line-height:0.5em;-webkit-box-sizing:content-box!important;background-color:none;background:url(/images/add.png) center center no-repeat;background-size:90%;}
 .img_display.clear{margin:0px;}
 .close2{position:absolute;right:0px;top:0px;height:20px;width:20px;text-align:center;line-height:20px;background:rgba(255,117,107,0.5);color:white;border-radius:0 0 0 10px;font-size:16px;}
 .imgwrap img{

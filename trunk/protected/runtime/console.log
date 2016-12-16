@@ -1,0 +1,108 @@
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (45)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (45)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (45)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (45)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\controllers\RegController.php (8)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\controllers\RegController.php (8)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_item`
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (35)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.ar.CActiveRecord] Contestant.findAllBySql()
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: select * from vote_contestant where itemId=? order by voteCount desc
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `vote_contestant`
+in D:\code\vote\trunk\protected\components\Controller.php (40)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.ar.CActiveRecord] Item.findByPk()
+in D:\code\vote\trunk\protected\components\Controller.php (45)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `vote_item` `t` WHERE `t`.`itemId`='1' LIMIT 1
+in D:\code\vote\trunk\protected\components\Controller.php (45)
+in D:\code\vote\trunk\index.php (22)
+2016/12/16 09:09:16 [trace] [system.db.CDbCommand] Executing SQL: select max(sortNum) from vote_contestant where itemId=1
+in D:\code\vote\trunk\protected\controllers\RegController.php (31)
+in D:\code\vote\trunk\index.php (22)

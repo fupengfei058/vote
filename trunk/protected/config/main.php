@@ -72,21 +72,19 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+                    'levels'=>'error, warning, info, trace',
+	                /*'logFile'=>'console.log',
+                    'categories'=>'system.db.*',*///打印sql语句
+
 				),
 				// uncomment the following to show log messages on web pages
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
-                array(
-                    'class'=>'CProfileLogRoute',
-                ),
                 /*array(
                     'class'=>'CWebLogRoute',
                     'levels'=>'error,warning,trace',
                 ),*/
+                array(
+                    'class'=>'CProfileLogRoute',
+                ),
             ),
 		),
 
