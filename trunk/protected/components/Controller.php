@@ -34,8 +34,8 @@ class Controller extends CController
         session_start();
         $_SESSION['itemId'] = ITEMID;
         $item = Item::model()->findByPk($_SESSION['itemId']);
-        if (empty($item) || $item['endTime'] < time()) {
-            exit('该活动已结束！');
+        if (empty($item) || $item['startTime'] > time() || $item['endTime'] < time()) {
+            exit('活动未开启！');
         }
         //选手信息
         $contestant = Contestant::model()->findAllBySql('select * from vote_contestant where itemId=? order by voteCount desc',array($_SESSION['itemId']));
