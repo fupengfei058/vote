@@ -38,7 +38,7 @@ class Controller extends CController
             exit('活动未开启！');
         }
         //选手信息
-        $contestant = Contestant::model()->findAllBySql('select * from vote_contestant where itemId=? order by voteCount desc',array($_SESSION['itemId']));
+        $contestant = Contestant::model()->findAllBySql('select * from vote_contestant where itemId=? and reviewState=? order by voteCount desc',array($_SESSION['itemId'],1));
         $this->contestant = json_decode(CJSON::encode($contestant),TRUE);
         //报名人数
         $this->contestantNumbers = count($this->contestant);

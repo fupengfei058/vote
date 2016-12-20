@@ -31,10 +31,10 @@ class SiteController extends Controller
                 $recordModel->IP = ip2long($ip);
                 $recordModel->save();
                 //3.活动投票量增加1
-                Yii::app()->db->createCommand("update vote_item set `totalVote`=`totalVote`+1 where itemId={$_SESSION['itemId']}")->execute();
+                Yii::app()->db->createCommand("update {Item::tableName} set `totalVote`=`totalVote`+1 where itemId={$_SESSION['itemId']}")->execute();
                 //Yii::endProfile('block1');
                 //4.选手票数增加1
-                Yii::app()->db->createCommand("update vote_contestant set `voteCount`=`voteCount`+1 where contestantId={$_POST['contestantId']}")->execute();
+                Yii::app()->db->createCommand("update {Contestant::tableName} set `voteCount`=`voteCount`+1 where contestantId={$_POST['contestantId']}")->execute();
                 $transaction->commit();
                 exit(json_encode(array('code'=>1000,'message'=>"投票成功")));
             } catch (Exception $e) {
