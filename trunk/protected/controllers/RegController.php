@@ -29,7 +29,7 @@ class RegController extends Controller
                     $model->pic = $fileDir.'/'.time().'_'.rand(0,9999).'.'.$file->extensionName;
                     $model->itemId = $_SESSION['itemId'];
                     //查找本次活动中最大的编号+1作为该选手的编号
-                    $maxSortNum = Yii::app()->db->createCommand("select max(sortNum) from {Contestant::tableName} where itemId={$_SESSION['itemId']}")->queryScalar();
+                    $maxSortNum = Yii::app()->db->createCommand("select max(sortNum) from vote_contestant where itemId={$_SESSION['itemId']}")->queryScalar();
                     $model->sortNum = $maxSortNum ? ($maxSortNum + 1) : 1;
                     $model->voteCount = 0;
                     $model->createTime = time();
