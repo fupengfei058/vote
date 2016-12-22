@@ -34,7 +34,7 @@ class Controller extends CController
         session_start();
         $_SESSION['itemId'] = ITEMID;
         $item = Item::model()->findByPk($_SESSION['itemId']);
-        if (empty($item) || $item['startTime'] > time() || $item['endTime'] < time()) {
+        if (empty($item) || $item['startTime'] > time() || $item['endTime'] < time() || $item['itemState'] == 0) {
             exit('活动未开启！');
         }
         //选手信息
