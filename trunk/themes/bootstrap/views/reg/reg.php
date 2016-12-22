@@ -5,6 +5,7 @@
             <?php $form = $this->beginWidget('CActiveForm', array(
                 'id'=>'reg-form',
                 'enableAjaxValidation'=>false,
+                'method'=>'post',
                 'htmlOptions'=>array('enctype'=>'multipart/form-data'),
             )); ?>
             <div class="clear">

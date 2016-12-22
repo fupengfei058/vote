@@ -33,18 +33,26 @@ class contestant extends CActiveRecord
     }
 
     //文件上传
-    public function upload($file)
+    public function upload($file,$itemId)
     {
-        $filename = $file->getName();
-        $uploaddir = Yii::app()->basePath.'/runtime/upload';
-        if (!is_dir($uploaddir)) {
-            mkdir($uploaddir,777);
+        if (is_object($file) && get_class($file) === 'CUploadedFile') {
+            //创建文件目录
+            $fileDir = Yii::app()->basePath.'/runtime/upload';
+            if (!is_dir($fileDir)) {
+                mkdir($fileDir,0777);
+            }
+            $this->pic = $fileDir.'/'.time().'_'.rand(0,9999).'.'.$file->extensionName;
+            $this->itemId = $_SESSION['itemId'];
+            //查找本次活动中最大的编号+1作为该选手的编号
+            $maxSortNum = Yii::app()->db->createCommand("select max(sortNum) from vote_contestant where itemId={$itemId}")->queryScalar();
+            $this->sortNum = $maxSortNum ? ($maxSortNum + 1) : 1;
+            $this->voteCount = 0;
+            $this->createTime = time();
+            if ($this->save()) {
+                $file->saveAs($this->pic);
+                return true;
+            }
         }
-        $uploadfile = $uploaddir.'/'.time().$filename;
-        if ($file->saveAs($uploadfile,true)) {
-            return $uploadfile;
-        } else {
-            return false;
-        }
+        return false;
     }
 }
