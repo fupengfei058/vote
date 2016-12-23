@@ -12,7 +12,6 @@ class SiteController extends Controller
     //投票
     public function actionVote()
     {
-        //http://1.vote.yaochufa.com
         if (isset($_POST['contestantId'])) {
             $recordModel = new Record();
             //判断IP是否已投过票
